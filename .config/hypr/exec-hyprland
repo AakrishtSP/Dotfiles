@@ -2,3 +2,7 @@
 cd ~
 # user preferred settings
 
+discord &
+spotify &
+kdeconnectd &
+kdeconnect-indicator &
