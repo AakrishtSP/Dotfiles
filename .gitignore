@@ -41,9 +41,15 @@
 !.xsession
 !.xsessionrc
 
+!.dircolors
+!.gtkrc-2.0
+
+!.icons/
+!.icons/**
 
 # Linux workstation stuff
 !.config
+
 !.config/hypr/
 !.config/hypr/**
 
