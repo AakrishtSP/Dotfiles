@@ -2,7 +2,8 @@
 cd ~
 # user preferred settings
 
-discord &
+webcord &
 spotify &
 kdeconnectd &
 kdeconnect-indicator &
+blueman-applet &
