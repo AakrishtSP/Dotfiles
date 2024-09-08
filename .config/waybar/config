@@ -59,7 +59,8 @@
       "icon-size": 16,
       "separate-outputs": true,
       "rewrite": {
-        "(.*) — FireDragon": "FireDragon"
+        "(.*) — FireDragon": "FireDragon",
+	"(.*) — Mozilla Firefox": "FireFox"
       }
     },
     "tray": {
@@ -215,7 +216,8 @@
       "icon-size": 16,
       "separate-outputs": true,
       "rewrite": {
-        "(.*) — FireDragon": "FireDragon"
+        "(.*) — FireDragon": "FireDragon",
+	"(.*) — Mozilla Firefox": "FireFox"
       }
     },
     "clock": {

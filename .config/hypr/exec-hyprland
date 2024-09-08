@@ -3,7 +3,11 @@ cd ~
 # user preferred settings
 
 webcord &
-spotify &
 kdeconnectd &
 kdeconnect-indicator &
-blueman-applet &
+blueman-tray &
+blueman-manager &
+
+
+sleep 2 && pkill blueman-manager 
+pkill webcord &
