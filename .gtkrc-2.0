@@ -1,5 +1,9 @@
-gtk-theme-name="BeautyLine"
-gtk-icon-theme-name="BeautyLine"
+# DO NOT EDIT! This file will be overwritten by nwg-look.
+# Any customization should be done in ~/.gtkrc-2.0.mine instead.
+
+include "/home/asp/.gtkrc-2.0.mine"
+gtk-theme-name="sweet"
+gtk-icon-theme-name="breeze-dark"
 gtk-font-name="Fira Sans, 10"
 gtk-cursor-theme-name="Sweet-cursors"
 gtk-cursor-theme-size=24

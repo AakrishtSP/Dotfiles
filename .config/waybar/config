@@ -13,6 +13,7 @@
     "modules-right": [
       "custom/network_traffic",
       "custom/updates",
+      "idle_inhibitor",
       "battery",
       "pulseaudio",
       "network",
@@ -53,6 +54,16 @@
 
       "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
+    
+    "idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": ""
+		},
+		"timeout": 30.5
+	},
+    
     "hyprland/window": {
       "format": "{}",
       "icon": true,
@@ -60,7 +71,8 @@
       "separate-outputs": true,
       "rewrite": {
         "(.*) — FireDragon": "FireDragon",
-	"(.*) — Mozilla Firefox": "FireFox"
+	"(.*) — Mozilla Firefox": "FireFox",
+	"(.*) — Zen Browser": "Zen Browser"
       }
     },
     "tray": {
@@ -177,7 +189,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["mpris"],
-    "modules-right": ["battery", "pulseaudio", "clock", "custom/power"],
+    "modules-right": ["idle_inhibitor","battery", "pulseaudio", "clock", "custom/power"],
     // Modules configuration
     "hyprland/workspaces": {
       "format": "{icon}",
@@ -217,7 +229,8 @@
       "separate-outputs": true,
       "rewrite": {
         "(.*) — FireDragon": "FireDragon",
-	"(.*) — Mozilla Firefox": "FireFox"
+	"(.*) — Mozilla Firefox": "FireFox",
+	"(.*) — Zen Browser": "Zen Browser"
       }
     },
     "clock": {
@@ -251,6 +264,15 @@
       "on-click": "nwgbar",
       "tooltip": false
     },
+    "idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": ""
+		},
+		"timeout": 30.5
+	},
+	
     "pulseaudio": {
       "scroll-step": 3, // %, can be a float
       "format": "{icon} {volume}% ",
