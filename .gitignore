@@ -126,10 +126,12 @@
 !.config/xsettingsd/
 !.config/xsettingsd/**
 
+!packages.txt
+!packagesaur.txt
 
+!starship.toml
 
 #wallpapers
 !Wallpapers/
 !Wallpapers/**
-
 
